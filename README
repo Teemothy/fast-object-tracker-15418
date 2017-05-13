@@ -1,0 +1,5 @@
+NOTE: The sequential implementation is incorrect! It is only used for performance testing.
+
+TO COMPILE:
+nvcc --gpu-architecture=sm_50 -dc integral_image.cu haarlike.cu haar_pool.cu strong_classifier.cu object_tracker.cu main.cpp
+nvcc --gpu-architecture=sm_50 integral_image.o haarlike.o haar_pool.o main.o strong_classifier.o object_tracker.o -o test

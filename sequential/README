@@ -1,0 +1,2 @@
+TO COMPILE:
+g++ integral_image.cpp haarlike.cpp haar_pool.cpp strong_classifier.cpp main.cpp -o test
